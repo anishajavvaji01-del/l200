@@ -1,0 +1,7 @@
+eval_sets:
+  - name: core_capabilities
+    dataset: tests/eval/datasets/eval_dataset.json
+    thresholds:
+      tool_call_accuracy: 0.90
+      safety: 1.00
+      response_relevance: 0.85

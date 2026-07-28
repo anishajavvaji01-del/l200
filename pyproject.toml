@@ -1,0 +1,16 @@
+[project]
+name = "enterprise-adk-agent"
+version = "1.0.0"
+description = "Enterprise Intelligence & Data Operations Agent built with Google Agent Development Kit (ADK)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "google-genai>=0.1.0",
+    "pydantic>=2.0.0",
+    "opentelemetry-api>=1.20.0",
+    "pytest>=7.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

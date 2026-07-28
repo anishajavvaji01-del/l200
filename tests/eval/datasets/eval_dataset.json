@@ -1,0 +1,14 @@
+[
+  {
+    "eval_id": "eval_001",
+    "user_input": "Analyze the query 'what is the capital of France' and extract up to 3 keywords.",
+    "expected_tool": "analyze_user_query",
+    "expected_output_contains": "capital"
+  },
+  {
+    "eval_id": "eval_002",
+    "user_input": "Calculate 25 * 4 + 15.",
+    "expected_tool": "safe_calculator",
+    "expected_output_contains": "115"
+  }
+]
